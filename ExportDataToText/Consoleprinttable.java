@@ -60,6 +60,7 @@ public class Consoleprinttable {
               buf.append(printChar(' ', columLen[i] - o.getBytes().length + margin));
           }
           buf.append("|\r\n");
+		  //buf.append(System.getProperty("line.separator"));
           /*if (printHeader && ii == 0)
               buf.append("|").append(printChar('=', sumlen + margin * 2 * colum + (colum - 1))).append("|\r\n");
           else
